@@ -4,6 +4,8 @@
 
 This admin dashboard is a powerful, user-friendly interface for managing users, roles, and permissions. Built with **Next.js 14 (App Router), React, and Tailwind CSS**, it provides a robust solution for administrators to efficiently manage their application's user base and access controls.
 
+![alt text](https://github.com/spranjal3301/Frontend-for-VRV-Security-s.git/blob/main/preview.png?raw=true)
+
 ## Features
 
 1. **User Management**
@@ -48,8 +50,8 @@ This admin dashboard is a powerful, user-friendly interface for managing users, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/rbac-management-system.git
-cd rbac-management-system
+git clone https://github.com/spranjal3301/Frontend-for-VRV-Security-s.git
+cd Frontend-for-VRV-Security-s
 ```
 
 ### 2. Install Dependencies
@@ -106,5 +108,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - pranjalsingh.job@gmail.com
 
-Project Link: [https://github.com/yourusername/rbac-management-system](https://github.com/yourusername/rbac-management-system)
+Project Link: [Frontend-for-VRV-Security-s](#)
 
