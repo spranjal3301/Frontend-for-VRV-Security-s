@@ -32,7 +32,7 @@ export default async function Hero() {
               <div className="mx-0 flex w-full max-w-full flex-col gap-4 py-1 sm:max-w-lg sm:flex-row md:mx-auto">
                 <div className="flex w-full flex-col gap-2 sm:flex-row sm:gap-4">
                   <Link
-                    href="/components"
+                    href="https://github.com/spranjal3301/Frontend-for-VRV-Security-s"
                     className={cn(
                       buttonVariants({
                         variant: "rainbow",
@@ -45,7 +45,7 @@ export default async function Hero() {
                     <ChevronRight className="ml-1  size-4 shrink-0 transition-all duration-300 ease-out group-hover:translate-x-1" />
                   </Link>
                   <Link
-                    href="admin/users"
+                    href="/admin/users"
                     className={cn(
                       buttonVariants({
                         size: "lg",

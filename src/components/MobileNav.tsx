@@ -29,12 +29,12 @@ const  sidebarNav:T_NavItem[] = [
       items: [
         {
           title: "Users Management",
-          href: "/users",
+          href: "/admin/users",
           items: [],
         },
         {
             title: "Roles Management",
-            href: "/roles",
+            href: "/admin/roles",
             items: [],
         },
     ]
@@ -51,6 +51,7 @@ export function MobileNav() {
         <Button
           variant="ghost"
           className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          
         >
           <svg
             strokeWidth="1.5"
@@ -106,7 +107,7 @@ export function MobileNav() {
                       key={item.href}
                       href={item.href}
                       onOpenChange={setOpen}
-                      onClick={() => item.event}
+                      onClick={() => setOpen(false)}
                       className={cn(
                         "text-muted-foreground",
                         item.disabled && "cursor-not-allowed opacity-60",
@@ -162,10 +163,7 @@ function MobileLink({
   return (
     <Link
       href={href}
-      onClick={() => {
-        router.push(href.toString());
-        onOpenChange?.(false);
-      }}
+      
       className={cn(className)}
       {...props}
     >

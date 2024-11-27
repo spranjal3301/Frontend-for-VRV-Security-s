@@ -62,7 +62,7 @@ export function RoleTable({roles,setRoles}:{roles:Role[],setRoles:any}) {
             <TableCell>{role.name}</TableCell>
             <TableCell>
               {role.permissions.map((permission) => (
-                <Badge key={permission} variant="secondary" className="mr-1 rounded-xl">
+                <Badge key={permission} variant="secondary" className="mr-1 rounded-xl my-1">
                   {permission}
                 </Badge>
               ))}

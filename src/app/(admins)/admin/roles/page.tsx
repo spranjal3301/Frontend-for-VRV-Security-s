@@ -27,7 +27,7 @@ export default function RolesPage() {
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-6 ">
+      <div className="flex flex-col md:flex-row justify-between items-left mb-6">
         <h1 className="text-3xl font-bold">Roles Management</h1>
          <AddRole roles={roles} setRoles={setRoles}/>
       </div>
@@ -73,7 +73,7 @@ function AddRole({roles,setRoles}:any) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-      <Button className='rounded-full'>
+      <Button className='rounded-lg'>
           <PlusCircle className="mr-2 h-4 w-4" /> Add Role
         </Button>
       </DialogTrigger>

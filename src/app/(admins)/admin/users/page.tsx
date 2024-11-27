@@ -19,7 +19,7 @@ export default function UsersPage() {
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex flex-col md:flex-row justify-between items-left mb-6">
         <h1 className="text-3xl font-bold">Users Management</h1>
         <Adduser users={users} setUsers={setUsers}/>
       </div>

@@ -85,9 +85,24 @@ const config: Config = {
   			shine: 'shine var(--duration) infinite linear',
   			pulse: 'pulse var(--duration) ease-out infinite',
   			rainbow: 'rainbow var(--speed, 2s) infinite linear',
+			'box-1': 'moveBox1 4s infinite',
 
   		},
   		keyframes: {
+			moveBox1: {
+				'9.1%': { transform: 'translate(-26px, 0)' },
+				'18.2%': { transform: 'translate(0px, 0)' },
+				'27.3%': { transform: 'translate(0px, 0)' },
+				'36.4%': { transform: 'translate(26px, 0)' },
+				'45.5%': { transform: 'translate(26px, 26px)' },
+				'54.6%': { transform: 'translate(26px, 26px)' },
+				'63.6%': { transform: 'translate(26px, 26px)' },
+				'72.7%': { transform: 'translate(26px, 0px)' },
+				'81.8%': { transform: 'translate(0px, 0px)' },
+				'90.9%': { transform: 'translate(-26px, 0px)' },
+				'100%': { transform: 'translate(0px, 0px)' },
+			  }
+			,
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -242,4 +257,6 @@ const config: Config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
+
 export default config;

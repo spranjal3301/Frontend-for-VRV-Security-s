@@ -1,5 +1,6 @@
 import { Sidebar } from '@/components/sidebar'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import NumberTicker from '@/components/ui/number-ticker'
 import { Users, UserCircle, Shield } from 'lucide-react'
 
 export default function AdminLayout({
@@ -18,7 +19,9 @@ export default function AdminLayout({
               <Users className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">1,234</div>
+              <div className="text-2xl font-bold">
+              <NumberTicker value={1234} />
+              </div>
             </CardContent>
           </Card>
           <Card>
@@ -27,7 +30,9 @@ export default function AdminLayout({
               <UserCircle className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">1,089</div>
+              <div className="text-2xl font-bold">
+                <NumberTicker value={1089} />
+                </div>
             </CardContent>
           </Card>
           <Card>
@@ -36,7 +41,7 @@ export default function AdminLayout({
               <Shield className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">5</div>
+              <div className="text-2xl font-bold"><NumberTicker value={5} /></div>
             </CardContent>
           </Card>
           <Card>
@@ -45,7 +50,7 @@ export default function AdminLayout({
               <Shield className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">15</div>
+              <div className="text-2xl font-bold"><NumberTicker value={15} /></div>
             </CardContent>
           </Card>
         </div>
