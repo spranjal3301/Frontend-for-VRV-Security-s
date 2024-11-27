@@ -4,7 +4,7 @@
 
 This admin dashboard is a powerful, user-friendly interface for managing users, roles, and permissions. Built with **Next.js 14 (App Router), React, and Tailwind CSS**, it provides a robust solution for administrators to efficiently manage their application's user base and access controls.
 
-![alt text](https://github.com/spranjal3301/Frontend-for-VRV-Security-s.git/blob/main/preview.png?raw=true)
+![alt text](https://github.com/spranjal3301/Frontend-for-VRV-Security-s/blob/main/preview.png?raw=true)
 
 ## Features
 
